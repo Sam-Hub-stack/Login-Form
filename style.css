@@ -1,0 +1,64 @@
+body{
+    font-weight: bold;
+    background:linear-gradient(rgb(93, 0, 255),black)
+}
+.container{
+   width:46;
+  display: flex;
+  justify-content: center;
+  
+}
+.inside{
+       border-radius: 25px;
+       margin-top:15%;
+       border: solid;
+       border-color: beige;
+}
+.head{
+    padding-left: 120px;
+    color:antiquewhite
+}
+#login{
+    padding-left:50px;
+    height:30px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#pass{
+    padding-left:50px;
+    height:30px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.para{
+    color:blanchedalmond;
+    display: flex;
+    align-content: flex-end;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#para{
+    margin-left: 20px;
+}
+.log{
+    padding-left:9.px;
+     font-size: 20px;
+     width:300px;
+     border-radius:15px;
+     height:35px;
+     margin-left: 20px;
+     margin-right: 20px;
+}
+.para2{
+    padding-left: 40px;
+    color:beige;
+}
+.log:hover{
+    background:black;
+    color:white;
+}
+
